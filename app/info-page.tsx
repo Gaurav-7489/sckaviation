@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import {Header,Footer,Reveal} from './components';
+import {Header,Footer,Reveal} from './shared';
 
 export type InfoPageData={eyebrow:string;title:string;subtitle:string;body:string;image:'aircraft'|'detail';kind:'aircraft'|'design'|'projects'};
 
